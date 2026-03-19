@@ -49,3 +49,38 @@ a:hover{
 .main-projects{
     background-color: #706677;
 }
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2em;
+}
+.project-card{
+    flex: 1 1 300px;
+    margin: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+    background-color: #565264;
+    max-width: max-content;
+    padding: 40px;
+}
+.project-card img{
+    max-width: 90%;
+    height: auto;
+    border-radius: 8px;
+    padding: 3rem;
+     
+    
+}
+.project-card h3{
+    text-align: justify;
+}
+.project-card p{
+    text-align: justify;
+}
+.project-card:hover{
+    transform: scale(1.05);
+}
