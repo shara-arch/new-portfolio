@@ -71,16 +71,24 @@ a:hover{
     max-width: 90%;
     height: auto;
     border-radius: 8px;
-    padding: 3rem;
-     
     
 }
 .project-card h3{
     text-align: justify;
+    color: #A6808C;
 }
 .project-card p{
     text-align: justify;
 }
 .project-card:hover{
     transform: scale(1.05);
+}
+.live-link {
+    text-decoration: none;
+    color: #A6808C;
+    text-align: justify;
+}
+.live-link :hover {
+    text-decoration: underline;
+
 }
