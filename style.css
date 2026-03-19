@@ -29,3 +29,20 @@ nav{
 a:hover{
     text-decoration: underline;
 }
+.about-me{
+    padding: 64px 250px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+.profile-photo{
+    height: 500px;
+    width: 450px;
+    background-color: white;
+}
+.bio{
+    text-align: justify;
+    font-size: 1.3rem;
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
