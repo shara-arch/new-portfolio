@@ -109,13 +109,28 @@ a:hover{
     margin-left: 5rem;
 }
 .skills-table{
-    
+    width: 60%;
     border-spacing: 3rem 0;
 }
 .skills-table td {
     padding-top: 2rem;
+    align-items: center;
+    border-bottom: 10px;
     
+}
+.skill-row {
+    display: flex;
+    justify-content: space-between;
 }
 .skills-table th{
     text-align: left;
+}
+.skill-tag {
+    /* display: flex;
+    display: inline; */
+    background-color: #A288A6;
+    padding: 0.3rem;
+    border-radius: 10px;
+    /* margin-left:2rem; */
+    /* text-align: right; */
 }
