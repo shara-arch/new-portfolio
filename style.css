@@ -88,11 +88,11 @@ a:hover{
 }
 .project-card h3{
     text-align: justify;
-    /* color: #E6E1C5; */
+    
 }
 .project-card p{
     text-align: justify;
-    /* color: white; */
+   
 }
 .project-card:hover{
     transform: scale(1.05);
@@ -107,6 +107,7 @@ a:hover{
 }
 .skills{
     margin-left: 5rem;
+    font-size: large;
 }
 .skills-table{
     width: 60%;
@@ -146,4 +147,33 @@ a:hover{
     font-size: 14px;
     color: var(--text-tertiary);
     letter-spacing: 0.1em;
+}
+
+/* Conclusion */
+.conclusion{
+    margin-left: 5rem ;
+    
+}
+.main-conclusion{
+    font-size: large;
+}
+.nav-btns{
+    display: flex;
+    gap: 2rem;
+    margin-left: 1rem;
+    
+}
+.nav-btns button{
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    background-color: #2B2D42;
+    
+}
+.nav-btns a{
+    color: white;
+    text-decoration: none;
+}
+.nav-btns button:hover{
+   transform: scale(1.05);
+
 }
