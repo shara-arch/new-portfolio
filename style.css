@@ -126,11 +126,24 @@ a:hover{
     text-align: left;
 }
 .skill-tag {
-    /* display: flex;
-    display: inline; */
     background-color: #A288A6;
     padding: 0.3rem;
     border-radius: 10px;
-    /* margin-left:2rem; */
-    /* text-align: right; */
+}
+/* ── Divider ── */
+.divider-line {
+    flex: 1;
+    height: 1px;
+    background:#2B2D42;
+}
+.divider {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 2rem;
+}
+.divider-text {
+    font-size: 14px;
+    color: var(--text-tertiary);
+    letter-spacing: 0.1em;
 }
