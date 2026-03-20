@@ -1,20 +1,22 @@
 body{
     padding: 0;
     margin:0;
-    background-color: #AFD2E9;
+    background-color: #CCBCBC;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 nav{
     display: flex;
     justify-content: space-between;
     padding: 14px 48px;
-    background-color: #d0e0eb;
+    background-color: #F1E3E4;
     opacity: 0.7;
+    position: fixed;
+    width: 96%;
 }
 .nav-links{
     display: flex;
     gap: 30px;
-    background-color: #9D96B8 ;
+    background-color: #A288A6 ;
     padding: 1rem 2rem;
     border-radius: 15px;
 }
@@ -46,12 +48,19 @@ a:hover{
     font-size: 1.3rem;
     /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
 }
+
 .main-projects{
-    background-color: #706677;
+    background-color: #2B2D42;
     padding: 1rem;
 }
 .main-projects h2{
     padding: 2em;
+    color: white;
+    
+}
+.conjunctions{
+    color: white; 
+    margin-left: 50px;
 }
 .card-container{
     display: flex;
@@ -67,7 +76,7 @@ a:hover{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.3s;
-    background-color: #565264;
+    background-color: #A288A6;
     max-width: max-content;
     padding: 40px;
 }
@@ -79,18 +88,19 @@ a:hover{
 }
 .project-card h3{
     text-align: justify;
-    color: #A6808C;
+    /* color: #E6E1C5; */
 }
 .project-card p{
     text-align: justify;
+    /* color: white; */
 }
 .project-card:hover{
     transform: scale(1.05);
 }
 .live-link {
     text-decoration: none;
-    color: #A6808C;
-    text-align: justify;
+    color: black;
+    font-weight: bold;
 }
 .live-link :hover {
     text-decoration: underline;
