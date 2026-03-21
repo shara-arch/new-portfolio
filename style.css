@@ -245,7 +245,7 @@ footer{
 
 }
 
-/* --RESPONSIVE MEDIA-- */
+/* --RESPONSIVE MEDIA FOR MOBILE PHONES-- */
 @media (max-width: 768px) {
     nav {
         padding: 6px 12px;
@@ -272,7 +272,7 @@ footer{
         gap: 10px;
     }
     .about-me {
-        padding:18rem 1rem 1rem;
+        padding:10rem 1rem 1rem;
     }
     .profile-photo {
         width: 100%;
@@ -304,5 +304,39 @@ footer{
     .skills-table {
         padding-bottom: 0.8rem;
         border-bottom: 1px solid #e0e0e0;
+    }
+}
+/* ---RESPONSIVE MEDIA FOR TABLETS/IPADS-- */
+@media (min-width: 769px) and (max-width: 1024px) {
+    nav {
+        padding: 8px 24px;
+        width: 95%;
+    }
+    .initials img {
+        height: 7rem;
+        width: auto;
+    }
+    .about-me {
+        flex-direction: column;
+        align-items: center;
+        padding: 14rem 3rem 1rem 2rem;
+    }
+    .profile-photo {
+        width: 60%;
+        height: auto;
+    }
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        padding: 0 1.5rem;
+    }
+    .project-card   img{
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+    .skills-table {
+        width: 80%;
     }
 }
