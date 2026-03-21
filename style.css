@@ -293,4 +293,16 @@ footer{
     .nav-btns button, .socials-footer button {
         width: 80%;
     }
+    .skills-table, .skills-table tr {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .skills-table th {
+        display: none;
+    }
+    .skills-table {
+        padding-bottom: 0.8rem;
+        border-bottom: 1px solid #e0e0e0;
+    }
 }
