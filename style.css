@@ -6,13 +6,12 @@ body{
 }
 /* --HEADER NAVIGATION-- */
 nav{
-    /* display: flex; */
-    /* justify-content: space-between; */
     padding: 14px 48px;
     background-color: #B89BC2;
     opacity: 0.7;
     position: fixed;
     width: 96%;
+    
 }
 .lower-nav{
     padding-top: 1rem;
@@ -53,7 +52,10 @@ a:hover{
 }
 /* --ABOUT ME-- */
 .about-me{
-    padding: 64px 250px;
+    padding-top: 15rem;
+    padding-bottom: 5rem;
+    padding-left: 5rem;
+    padding-right: 10rem;
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -67,7 +69,6 @@ a:hover{
 .bio{
     text-align: justify;
     font-size: 1.3rem;
-    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
 }
 /* --FEATURED PROJECTS-- */
 .main-projects{
