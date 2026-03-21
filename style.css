@@ -197,6 +197,7 @@ a:hover{
     border-radius: 25px;
     background-color: #3D2645;
     opacity: 0.7;
+    color: white;
     
 }
 .nav-btns a{
@@ -290,9 +291,13 @@ footer{
         max-width: 100%;
         padding: 20px;
     }
-    .nav-btns button, .socials-footer button {
+    .nav-btns a {
+        display: flex;
+    } 
+    .socials-footer a {
         width: 80%;
     }
+    
     .skills-table, .skills-table tr {
         display: flex;
         flex-direction: column;
