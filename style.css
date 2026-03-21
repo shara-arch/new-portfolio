@@ -62,9 +62,10 @@ a:hover{
     text-align: center;
 }
 .profile-photo{
-    height: 500px;
-    width: 450px;
+    height: 30em;
+    width: auto;
     background-color: white;
+    border-radius: 20px;
 }
 .bio{
     text-align: justify;
