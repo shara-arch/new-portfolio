@@ -6,13 +6,19 @@ body{
 }
 /* --HEADER NAVIGATION-- */
 nav{
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-between; */
     padding: 14px 48px;
     background-color: #B89BC2;
     opacity: 0.7;
     position: fixed;
     width: 96%;
+}
+.lower-nav{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    
 }
 .nav-links{
     display: flex;
@@ -20,6 +26,12 @@ nav{
     background-color: #E8B86D;
     padding: 1rem 2rem;
     border-radius: 15px;
+    align-self: flex-end;
+    
+}
+#style{
+    display: flex;
+    
 }
 .socials{
     display: flex;
@@ -31,6 +43,13 @@ nav{
 }
 a:hover{
     text-decoration: underline;
+}
+.initials img{
+    display: flex;
+    text-align: left;
+    border-radius: 50%;
+    height: 10rem;
+    width: 100%;
 }
 /* --ABOUT ME-- */
 .about-me{
