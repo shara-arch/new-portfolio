@@ -4,6 +4,7 @@ body{
     background-color: #CCBCBC;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+/* --HEADER NAVIGATION-- */
 nav{
     display: flex;
     justify-content: space-between;
@@ -31,6 +32,7 @@ nav{
 a:hover{
     text-decoration: underline;
 }
+/* --ABOUT ME-- */
 .about-me{
     padding: 64px 250px;
     display: flex;
@@ -48,7 +50,7 @@ a:hover{
     font-size: 1.3rem;
     /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
 }
-
+/* --FEATURED PROJECTS-- */
 .main-projects{
     background-color: #2B2D42;
     padding: 1rem;
@@ -105,6 +107,7 @@ a:hover{
 .live-link :hover {
     text-decoration: underline;
 }
+/* --SKILLS-- */
 .skills{
     margin-left: 5rem;
     font-size: large;
@@ -133,7 +136,7 @@ a:hover{
     border-radius: 10px;
 }
 
-/* ── Divider ── */
+/* ── DIVIDER ── */
 .divider-line {
     flex: 1;
     height: 1px;
@@ -151,7 +154,7 @@ a:hover{
     letter-spacing: 0.1em;
 }
 
-/* Conclusion */
+/* CONCLUSION */
 .conclusion{
     margin-left: 5rem ;
     
@@ -161,7 +164,7 @@ a:hover{
     font-size: large;
 }
 
-/* --Navigation Buttons-- */
+/* --NAVIGATION BUTTONS-- */
 .nav-btns{
     display: flex;
     gap: 2rem;
@@ -185,7 +188,7 @@ a:hover{
    opacity: 1;
 
 }
-/* --Socials-- */
+/* --SOCIALS-- */
 .socials-footer{
     display: flex;
     flex-wrap: wrap;
@@ -209,4 +212,14 @@ a:hover{
 
 .socials-footer button:hover{
     transform: scale(1.2);
+}
+/* --FOOTER-- */
+footer{
+    text-align: center;
+    padding: 2rem;
+    background-color: #F1E3E4;
+    opacity: 0.7;
+    margin-top: 1rem;
+    max-width: 100%;
+
 }
